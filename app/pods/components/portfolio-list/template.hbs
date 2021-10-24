@@ -1,0 +1,18 @@
+{{yield}}
+<h2>Portfolio list ({{this.portfolioCount}})</h2>
+
+
+<Input id="portfolio-name" @type="text" @value={{this.portfolioName}} />
+<button {{on "click" this.portfolios.refetch}}>Refresh</button>
+{{#if this.portfolios.loading}}
+  Loading...
+{{else if this.portfolios.error}}
+  Error!: {{this.portfolios.error.message}}
+{{else}}
+  {{#each this.portfolios.data.portfolios as |portfolio|}}
+    <div>
+      Name: {{portfolio.name}}
+      Base Income: {{portfolio.baseIncome}}
+    </div>
+  {{/each}}
+{{/if}}
