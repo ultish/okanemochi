@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7cd93c-e6c0-4b24-92d4-d00b0dcd6f79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/okanemochi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/okanemochi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pods/components/portfolio-list/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/components/portfolio-list/component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635058433107</updated>
       <workItem from="1635058438292" duration="8041000" />
-      <workItem from="1635073346574" duration="1098000" />
+      <workItem from="1635073346574" duration="1286000" />
     </task>
     <servers />
   </component>

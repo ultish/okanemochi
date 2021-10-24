@@ -1,0 +1,14 @@
+type Query {
+    portfolios(name: String): [Portfolio]
+}
+
+type Mutation {
+    createPortfolio(name: String!, baseIncome: Float!): Portfolio
+    deletePortfolio(name: String!): Boolean
+}
+
+type Portfolio {
+    id: ID!
+    name: String!
+    baseIncome: Float!
+}

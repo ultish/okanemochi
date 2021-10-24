@@ -3,6 +3,10 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Generate Typescript Types from GraphQL Schema
+* `npm run gen` will generate the Type definitions and place them in app/graphql/schemas.d.ts
+* `npm run gen:watch` will monitor the schema.graphqls file for changes and re-generate the Type definitions
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
