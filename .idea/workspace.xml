@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7cd93c-e6c0-4b24-92d4-d00b0dcd6f79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/pods/components/om-input/component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pods/components/om-input/template.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pods/components/portfolio-list/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/utilities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apollo.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/instance-initializers/apollo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pods/application/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/application/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pods/components/portfolio-list/component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/components/portfolio-list/component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/queries/portfolios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries/portfolios.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pods/application/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/application/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pods/components/portfolio-list/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/components/portfolio-list/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pods/components/test-one/component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pods/components/test-one/template.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pods/portfolios/template.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/pods/portfolios/template.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ember-cli-build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ember-cli-build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/pods/components/test-one/component-test.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.ember-template-lint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -65,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635058433107</updated>
       <workItem from="1635058438292" duration="8041000" />
-      <workItem from="1635073346574" duration="2750000" />
+      <workItem from="1635073346574" duration="8761000" />
     </task>
     <servers />
   </component>

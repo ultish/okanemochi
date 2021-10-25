@@ -1,18 +1,18 @@
-{{yield}}
-<h2>Portfolio list ({{this.portfolioCount}})</h2>
-
-
-<Input id="portfolio-name" @type="text" @value={{this.portfolioName}} />
-<button {{on "click" this.portfolios.refetch}}>Refresh</button>
+<div class="flex flex-row">
+  <OmInput @class="flex-grow" @label="Portfolio name:" @value={{this.portfolioName}} />
+  <button class="my-0.5" type="button" {{on "click" this.portfolios.refetch}}>Refresh</button>
+</div>
+<h2 class="text-lg bg-blue-100">Portfolio list ({{this.portfolioCount}})</h2>
 {{#if this.portfolios.loading}}
   Loading...
 {{else if this.portfolios.error}}
   Error!: {{this.portfolios.error.message}}
 {{else}}
   {{#each this.portfolios.data.portfolios as |portfolio|}}
-    <div>
+    <div local-class="test">
       Name: {{portfolio.name}}
       Base Income: {{portfolio.baseIncome}}
     </div>
   {{/each}}
 {{/if}}
+{{yield}}

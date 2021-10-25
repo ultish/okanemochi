@@ -1,4 +1,8 @@
-{{outlet}}
-Hello Application
-<LinkTo @route="portfolios">Portfolios</LinkTo>
-<TestOne />
+<div class="container mx-auto">
+
+  <div>
+    <LinkTo @route="application">Home</LinkTo>
+    <LinkTo @route="portfolios">Portfolios</LinkTo>
+  </div>
+  {{outlet}}
+</div>

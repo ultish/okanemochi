@@ -1,0 +1,12 @@
+<form class={{concat @class " my-0.5"}}>
+  <div class="bg-white text-grey-400 focus-within:text-gray-600 border">
+    <div>
+      {{!--<FaIcon @icon="portrait" />--}}
+      {{!-- can't use fa yet due to ember-get-config bug--}}
+    </div>
+    <label class="text-xs uppercase px-2 flex flex-row items-center">
+      {{@label}}
+      <Input class="bg-white text-base border-none focus:ring-0 flex-grow ml-2 p-1" @type="text" @value={{@value}} />
+    </label>
+  </div>
+</form>
