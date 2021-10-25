@@ -4,5 +4,4 @@ interface OmInputArgs {}
 
 export default class OmInput extends Component<OmInputArgs> {
 
-
 }

@@ -1,12 +1,38 @@
 <form class={{concat @class " my-0.5"}}>
-  <div class="bg-white text-grey-400 focus-within:text-gray-600 border">
+  <div class="group
+    bg-white
+    text-grey-400
+    focus-within:text-gray-600
+    border"
+  >
     <div>
       {{!--<FaIcon @icon="portrait" />--}}
       {{!-- can't use fa yet due to ember-get-config bug--}}
     </div>
-    <label class="text-xs uppercase px-2 flex flex-row items-center">
+    <label class="
+      text-xs
+      uppercase
+      pl-2
+      flex
+      flex-row
+      items-center
+      group-hover:font-medium
+      group-hover:text-gray-700
+      focus-within:font-medium"
+    >
       {{@label}}
-      <Input class="bg-white text-base border-none focus:ring-0 flex-grow ml-2 p-1" @type="text" @value={{@value}} />
+      <Input
+        class="bg-white
+          text-base
+          focus:ring-0
+          hover:
+          flex-grow
+          ml-2 p-1
+          border-l
+          border-t-0 border-r-0 border-b-0"
+        @type="text"
+        @value={{@value}}
+      />
     </label>
   </div>
 </form>

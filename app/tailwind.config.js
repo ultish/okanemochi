@@ -5,7 +5,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ['responsive', 'group-hover', 'focus-within'],
+    },
   },
   plugins: [],
 };

@@ -18,5 +18,7 @@ input {
     @apply border
 }
 button {
-    @apply bg-purple-600 text-xs uppercase text-white hover:bg-purple-800 focus:outline-none px-4;
+    @apply text-xs uppercase text-green-900 hover:text-green-100;
+    @apply bg-green-400 hover:bg-green-600 focus:outline-none;
+    @apply px-4;
 }
