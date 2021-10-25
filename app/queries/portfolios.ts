@@ -9,18 +9,3 @@ export const GET_PORTFOLIOS = gql`
         }
     }
 `;
-
-
-export type GetPortfoliosQuery = {
-    __typename?: 'Query';
-    portfolios: {
-        __typename?: 'Portfolio';
-        id: string;
-        name: string;
-        baseIncome: number;
-    }[];
-};
-
-export type GetPortfoliosQueryVariables = {
-    name?: string | null
-};
